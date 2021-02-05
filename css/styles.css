@@ -589,6 +589,13 @@ pre code {
   margin-left: auto;
 }
 
+@media (min-width: 350px) {
+  .container-sm,
+  .container {
+    max-width: 324px;
+  }
+}
+
 @media (min-width: 576px) {
   .container-sm,
   .container {
@@ -10658,9 +10665,9 @@ body {
   font-family: "Varela Round", -apple-system, BlinkMacSystemFont, "Segoe UI",
     Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji",
     "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-  font-size: 2.5rem;
-  line-height: 2.5rem;
-  letter-spacing: 0.8rem;
+  font-size: 1rem;
+  line-height: 1rem;
+  letter-spacing: 0.32rem;
   background: linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0));
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
@@ -10670,7 +10677,22 @@ body {
   max-width: 20rem;
   font-size: 1rem;
 }
-@media (min-width: 768px) {
+
+@media (min-width: 400px) {
+  .masthead h1 {
+    font-size: 2rem;
+    line-height: 2rem;
+  }
+}
+
+@media (min-width: 550px) {
+  .masthead h1 {
+    font-size: 3rem;
+    line-height: 3rem;
+  }
+}
+
+@media (min-width: 767px) {
   .masthead h1 {
     font-size: 4rem;
     line-height: 4rem;
@@ -10917,4 +10939,8 @@ body {
   align-items: center;
   background-color: rgb(238, 231, 231);
   margin-top:5%;
+}
+
+#maxWidth {
+  width: 100%;
 }
