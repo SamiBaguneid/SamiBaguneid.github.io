@@ -4381,11 +4381,17 @@ input[type="button"].btn-block {
   display: inline-block;
   padding-top: 0.3125rem;
   padding-bottom: 0.3125rem;
-  margin-right: 1rem;
-  font-size: 1.25rem;
+  font-size: 0.9rem;
   line-height: inherit;
   white-space: nowrap;
 }
+
+@media (min-width: 800px){
+  .navbar-brand {
+    font-size: 1.5rem;
+  }
+}
+
 .navbar-brand:hover,
 .navbar-brand:focus {
   text-decoration: none;
@@ -10644,18 +10650,14 @@ body {
 }
 
 .masthead {
+  display: flex;
+  justify-content: center;
   position: relative;
   width: 100%;
-  height: auto;
-  min-height: 35rem;
+  height: 100vh;
   padding: 15rem 0;
-  background: linear-gradient(
-      to bottom,
-      rgba(0, 0, 0, 0.3) 0%,
-      rgba(0, 0, 0, 0.7) 75%,
-      #000000 100%
-    ),
-    url("../assets/img/bg-masthead.jpg");
+  background: 
+    url("../assets/img/logo.jpeg");
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
@@ -10756,13 +10758,7 @@ body {
 
 .signup-section {
   padding: 10rem 0;
-  background: linear-gradient(
-      to bottom,
-      rgba(0, 0, 0, 0.1) 0%,
-      rgba(0, 0, 0, 0.5) 75%,
-      #000000 100%
-    ),
-    url("../assets/img/bg-signup.jpg");
+  background-color: #f4623a !important;
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
@@ -10943,4 +10939,22 @@ body {
 
 #maxWidth {
   width: 100%;
+}
+
+.positionGetStarted {
+  position: absolute;
+  bottom: 10%;
+  
+}
+
+.maxHeight {
+  width: 100%;
+  height: 100vh;
+}
+
+.logo {
+  background-color: white;
+  color: rgb(101,126,129);
+  width: 180px;
+  height: 60px;
 }
