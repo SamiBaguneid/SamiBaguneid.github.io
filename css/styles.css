@@ -227,11 +227,11 @@ svg {
   vertical-align: middle;
 }
 
-/*
+
 table {
   border-collapse: collapse;
 }
-*/
+
 
 caption {
   padding-top: 0.75rem;
@@ -10974,7 +10974,7 @@ body {
   margin-top: 10px;
 }
 
-.active, .collapsible:hover {
+.active2, .collapsible:hover {
   background-color: #555;
 }
 
@@ -10986,7 +10986,7 @@ body {
   margin-left: 5px;
 }
 
-.active:after {
+.active2:after {
   content: "\2212";
 }
 
