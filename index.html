@@ -126,6 +126,38 @@
               with coming to terms with bereavement. I have facilitated
               bereavement groups for several years.
             </p>
+            <div>
+              <button type="button" class="collapsible">GDPR Form</button>
+              <div class="content">
+                <p class="contentText">
+                  The GDPR replaces the 1998 Data Protection Act to ensure your
+                  personal and sensitve, confidential data is kept private and
+                  held securely, being processed in the way that you have agreed
+                  to. It is there to protect your rights as a consumer of a
+                  service or product that might involve your identifable data.
+                  It also covers any session records, text messages or emails we
+                  exchange. For more information please click on the link below
+                  where you can access my privacy notice and full GDPR policy.
+                </p>
+                <a href="./documents/GDPR.pdf" download="GDPR">Download GDPR</a>
+              </div>
+              <button type="button" class="collapsible">
+                Counsellor Contract
+              </button>
+              <div class="content">
+                <p class="contentText">
+                  A counselling contract clearly sets out the boundaries and
+                  limitations of the counselling relationship. My own terms and
+                  conditions can be read in the contract below. It can be
+                  downloaded as a PDF document.
+                </p>
+                <a
+                  href="./documents/Counselling Contract.pdf"
+                  download="Counselling Contract"
+                  >Download Contract</a
+                >
+              </div>
+            </div>
           </div>
         </div>
       </div>
@@ -212,6 +244,22 @@
         </div>
       </div>
     </section>
+    <script>
+      var coll = document.getElementsByClassName("collapsible");
+      var i;
+
+      for (i = 0; i < coll.length; i++) {
+        coll[i].addEventListener("click", function() {
+          this.classList.toggle("active");
+          var content = this.nextElementSibling;
+          if (content.style.maxHeight) {
+            content.style.maxHeight = null;
+          } else {
+            content.style.maxHeight = content.scrollHeight + "px";
+          }
+        });
+      }
+    </script>
     <!-- Bootstrap core JS-->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"></script>
