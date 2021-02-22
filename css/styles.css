@@ -11001,3 +11001,9 @@ body {
 .contentText {
   padding: 10px;
 }
+
+.sizeSelfPortrait {
+  width: 50%;
+  margin-bottom: 5%;
+  margin-top: 5%;
+}
