@@ -591,6 +591,10 @@ pre code {
   margin-left: auto;
 }
 
+.logo2 {
+  width: 150px;
+}
+
 @media (min-width: 250px) {
   .container-sm,
   .container {
