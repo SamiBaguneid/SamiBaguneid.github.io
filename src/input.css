@@ -62,6 +62,20 @@
   ::selection {
     background-color: var(--color-peach-100);
   }
+
+  /* FAQ accordion: hide the native disclosure triangle (a chevron icon is used instead). */
+  summary {
+    list-style: none;
+  }
+
+  summary::-webkit-details-marker {
+    display: none;
+  }
+
+  button:disabled {
+    cursor: progress;
+    opacity: 0.7;
+  }
 }
 
 @layer components {
