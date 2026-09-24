@@ -1,0 +1,139 @@
+@import "tailwindcss";
+
+/* Later tasks add Tailwind utility classes directly to these files. */
+@source "../index.html";
+@source "../js";
+
+@theme {
+  --color-teal-900: #164f4f;
+  --color-teal-700: #1f6b6b;
+  --color-teal-50: #eaf4f2;
+  --color-peach-500: #f0b988;
+  --color-peach-300: #f5cba7;
+  --color-peach-100: #fbe8d3;
+  --color-cream: #fbf8f4;
+  --color-ink: #2b2b28;
+  --color-ink-muted: #55554f;
+
+  --font-display: "Fraunces", ui-serif, Georgia, serif;
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+
+  --shadow-soft: 0 4px 20px rgb(31 107 107 / 0.08);
+
+  --radius-card: 1.25rem;
+  --radius-pill: 999px;
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 5rem;
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    html {
+      scroll-behavior: auto;
+    }
+  }
+
+  body {
+    background-color: var(--color-cream);
+    color: var(--color-ink);
+    font-family: var(--font-sans);
+    font-size: 18px;
+    line-height: 1.7;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family: var(--font-display);
+    color: var(--color-teal-900);
+  }
+
+  :focus-visible {
+    outline: 2px solid var(--color-teal-700);
+    outline-offset: 2px;
+  }
+
+  ::selection {
+    background-color: var(--color-peach-100);
+  }
+}
+
+@layer components {
+  .btn-primary {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    background-color: var(--color-teal-700);
+    color: #fff;
+    border-radius: var(--radius-pill);
+    padding: 0.75rem 1.75rem;
+    font-weight: 600;
+    transition: background-color 150ms ease;
+  }
+
+  .btn-primary:hover {
+    background-color: var(--color-teal-900);
+  }
+
+  .btn-primary:focus-visible {
+    outline: 2px solid var(--color-teal-700);
+    outline-offset: 2px;
+  }
+
+  .btn-secondary {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    background-color: transparent;
+    color: var(--color-teal-700);
+    border: 2px solid var(--color-teal-700);
+    border-radius: var(--radius-pill);
+    padding: 0.75rem 1.75rem;
+    font-weight: 600;
+    transition:
+      background-color 150ms ease,
+      color 150ms ease;
+  }
+
+  .btn-secondary:hover {
+    background-color: var(--color-teal-50);
+    color: var(--color-teal-900);
+  }
+
+  .btn-secondary:focus-visible {
+    outline: 2px solid var(--color-teal-700);
+    outline-offset: 2px;
+  }
+
+  /* Scroll-reveal: only animates once JS sets html.js, and only when the
+     visitor has not asked for reduced motion. Content stays visible by
+     default so it never depends on JS running. */
+  html.js .reveal {
+    opacity: 0;
+    transform: translateY(1rem);
+    transition:
+      opacity 0.6s ease,
+      transform 0.6s ease;
+  }
+
+  html.js .reveal.is-visible {
+    opacity: 1;
+    transform: none;
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    html.js .reveal {
+      opacity: 1;
+      transform: none;
+      transition: none;
+    }
+  }
+}
