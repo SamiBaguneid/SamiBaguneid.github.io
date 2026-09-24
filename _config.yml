@@ -5,3 +5,4 @@ exclude:
   - package-lock.json
   - node_modules/
   - .superpowers/
+  - README.md

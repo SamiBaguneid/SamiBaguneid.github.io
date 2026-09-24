@@ -81,6 +81,10 @@
   var year = document.getElementById("year");
   if (year) year.textContent = String(new Date().getFullYear());
 
+  /* Signal to the fail-safe script embedded in index.html's <head> that
+     site.js ran, so its reveal timeout fallback knows not to fire. */
+  window.__siteReady = true;
+
   /* Contact form: submit in the background, fall back to a normal POST */
   var form = document.getElementById("contact-form");
   if (form && window.fetch && window.FormData) {
@@ -94,12 +98,21 @@
       error.innerHTML =
         "Sorry, your message couldn't be sent just now. Please try again, or email me directly at " +
         '<a class="font-semibold text-teal-900 underline underline-offset-4" href="mailto:admin@lymmcounselling.org.uk">admin@lymmcounselling.org.uk</a>.';
-      error.classList.remove("hidden");
+      error.classList.add("bg-peach-100", "p-4");
+    };
+
+    var clearError = function () {
+      // Keep the alert container rendered (not display:none) so it stays in
+      // the accessibility tree and screen readers reliably announce it when
+      // it's populated later; just clear its text and visual styling so it
+      // stays visually empty.
+      error.textContent = "";
+      error.classList.remove("bg-peach-100", "p-4");
     };
 
     form.addEventListener("submit", function (e) {
       e.preventDefault();
-      error.classList.add("hidden");
+      clearError();
       if (button) button.disabled = true;
       if (buttonLabel) buttonLabel.textContent = "Sending…";
 

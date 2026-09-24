@@ -3,6 +3,12 @@
 /* Later tasks add Tailwind utility classes directly to these files. */
 @source "../index.html";
 @source "../js";
+/* Exclude non-markup text files from Tailwind's automatic source scan:
+   their prose can contain stray words that happen to match real utility
+   names (e.g. "static", "inline"), which would otherwise get generated
+   as unused CSS rules. */
+@source not "../.superpowers";
+@source not "../README.md";
 
 @theme {
   --color-teal-900: #164f4f;
