@@ -1,4 +1,4 @@
-/* Lymm Counselling — small progressive enhancements. No dependencies. */
+/* Lymm Counselling: small progressive enhancements. No dependencies. */
 (function () {
   "use strict";
 
