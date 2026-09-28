@@ -1,1 +1,8 @@
 theme: jekyll-theme-cayman
+exclude:
+  - src/
+  - package.json
+  - package-lock.json
+  - node_modules/
+  - .superpowers/
+  - README.md

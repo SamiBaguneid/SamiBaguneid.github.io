@@ -1,0 +1,14 @@
+{
+  "name": "lymm-counselling-site",
+  "private": true,
+  "version": "1.0.0",
+  "scripts": {
+    "build": "tailwindcss -i ./src/input.css -o ./assets/css/site.css --minify",
+    "dev": "tailwindcss -i ./src/input.css -o ./assets/css/site.css --watch"
+  },
+  "devDependencies": {
+    "@tailwindcss/cli": "4.3.3",
+    "lucide-static": "1.48.0",
+    "tailwindcss": "4.3.3"
+  }
+}

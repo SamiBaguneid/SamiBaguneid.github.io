@@ -1,282 +1,853 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en-GB">
   <head>
     <meta charset="utf-8" />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1, shrink-to-fit=no"
-    />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Lymm Counselling · Counsellor in Lymm, Cheshire</title>
     <meta
       name="description"
-      content="I am Cherry Baguneid, a licensed counsellor operating in Lymm. I help with a range of issues including: anxiety, depression, loss, relationship, family or work issues, domestic violence/sexual abuse and general life difficulties."
+      content="Cherry Baguneid is a person-centred counsellor, MBACP (Accred), in Lymm, offering face-to-face, walk and talk, telephone and online counselling for anxiety, depression, loss and bereavement, relationship, family and work issues, and general life difficulties."
     />
     <meta
       name="keywords"
       content="counselling, psychotherapy, lymm, warrington, lymm counselling, therapist, lymm therapist, psychotherapy, lymm psychotherapy"
     />
-    <title>Lymm Counselling Limited</title>
-    <link rel="icon" type="image/x-icon" href="assets/img/favicon.ico" />
-    <!-- Font Awesome icons (free version)-->
-    <script
-      src="https://use.fontawesome.com/releases/v5.15.1/js/all.js"
-      crossorigin="anonymous"
-    ></script>
+    <link rel="canonical" href="https://lymmcounselling.org.uk/" />
+    <link rel="icon" href="favicon.ico" sizes="16x16 32x32 48x48" />
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/img/favicon-32.png" />
+    <link rel="icon" type="image/png" sizes="192x192" href="assets/img/icon-192.png" />
+    <link rel="apple-touch-icon" href="assets/img/apple-touch-icon.png" />
+    <link rel="manifest" href="site.webmanifest" />
+    <meta name="theme-color" content="#1f6b6b" />
 
-    <script type="text/javascript">
-      //auto expand textarea
-      function adjust_textarea(h) {
-        h.style.height = "20px";
-        h.style.height = h.scrollHeight + "px";
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="Lymm Counselling Ltd" />
+    <meta property="og:locale" content="en_GB" />
+    <meta property="og:url" content="https://lymmcounselling.org.uk/" />
+    <meta property="og:title" content="Lymm Counselling · Cherry Baguneid, Counsellor in Lymm" />
+    <meta
+      property="og:description"
+      content="A calm, safe space to talk things through. Face-to-face, walk and talk, telephone and online counselling in Lymm, with a free 20-minute initial session."
+    />
+    <meta property="og:image" content="https://lymmcounselling.org.uk/assets/img/cherry-portrait-800.jpg" />
+    <meta property="og:image:alt" content="Cherry Baguneid, counsellor at Lymm Counselling" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600&family=Inter:wght@400;500;600&display=swap"
+    />
+    <link rel="stylesheet" href="assets/css/site.css" />
+    <script>
+      document.documentElement.classList.add("js");
+      // Fail-safe: if js/site.js fails to load (network error, blocked, etc.),
+      // .reveal sections would stay invisible forever since the "js" class
+      // above hides them until site.js reveals them. If site.js hasn't
+      // signalled readiness within ~3s, reveal everything anyway.
+      setTimeout(function () {
+        if (!window.__siteReady) {
+          var els = document.querySelectorAll(".reveal");
+          for (var i = 0; i < els.length; i++) els[i].classList.add("is-visible");
+        }
+      }, 3000);
+    </script>
+    <script src="js/site.js" defer></script>
+
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "ProfessionalService",
+        "name": "Lymm Counselling Ltd",
+        "description": "Person-centred counselling in Lymm with Cherry Baguneid: face-to-face, walk and talk therapy, telephone and online sessions.",
+        "url": "https://lymmcounselling.org.uk/",
+        "image": "https://lymmcounselling.org.uk/assets/img/cherry-portrait-800.jpg",
+        "logo": "https://lymmcounselling.org.uk/assets/img/logo-horizontal-600.png",
+        "telephone": "+447871925649",
+        "email": "admin@lymmcounselling.org.uk",
+        "priceRange": "£60",
+        "areaServed": [
+          { "@type": "City", "name": "Lymm" },
+          { "@type": "City", "name": "Warrington" }
+        ],
+        "founder": { "@type": "Person", "name": "Cherry Baguneid", "jobTitle": "Counsellor and psychotherapist" },
+        "openingHoursSpecification": [
+          {
+            "@type": "OpeningHoursSpecification",
+            "dayOfWeek": ["Thursday", "Friday"],
+            "opens": "09:00",
+            "closes": "17:00"
+          }
+        ]
       }
     </script>
-    <!-- Google fonts-->
-    <link
-      href="https://fonts.googleapis.com/css?family=Varela+Round"
-      rel="stylesheet"
-    />
-    <link
-      href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i"
-      rel="stylesheet"
-    />
-    <!-- Core theme CSS (includes Bootstrap)-->
-    <link href="css/styles.css" rel="stylesheet" />
-    <link
-      href="http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300"
-      rel="stylesheet"
-      type="text/css"
-    />
   </head>
-  <body id="page-top">
-    <!-- Navigation-->
-    <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
-      <div class="container">
-        <a class="navbar-brand js-scroll-trigger" href="#page-top"
-          ><img
-            class="logo2"
-            src="assets/img/Lymm Counselling Ltd - Horizontal.png"
-        /></a>
+  <body class="antialiased">
+    <a
+      href="#main"
+      class="sr-only focus:not-sr-only focus:fixed focus:left-4 focus:top-4 focus:z-[100] focus:rounded-full focus:bg-teal-900 focus:px-5 focus:py-3 focus:font-semibold focus:text-white"
+      >Skip to main content</a
+    >
+
+    <!-- Header -->
+    <header
+      id="site-header"
+      class="sticky top-0 z-50 border-b border-transparent bg-cream/85 backdrop-blur-md transition-[border-color,box-shadow] duration-200 [&.is-scrolled]:border-teal-900/10 [&.is-scrolled]:shadow-soft"
+    >
+      <div class="mx-auto flex h-18 max-w-6xl items-center justify-between gap-6 px-4 sm:px-6">
+        <a href="#top" class="shrink-0 rounded-lg">
+          <img
+            src="assets/img/logo-horizontal-600.png"
+            alt="Lymm Counselling Ltd"
+            width="600"
+            height="135"
+            class="h-9 w-auto sm:h-10"
+          />
+        </a>
+
+        <nav aria-label="Main" class="hidden lg:block">
+          <ul class="flex items-center gap-1 text-[0.95rem] font-medium text-ink">
+            <li><a class="rounded-full px-3.5 py-2 transition-colors hover:bg-teal-50 hover:text-teal-900" href="#about">About</a></li>
+            <li><a class="rounded-full px-3.5 py-2 transition-colors hover:bg-teal-50 hover:text-teal-900" href="#how-i-work">How I work</a></li>
+            <li><a class="rounded-full px-3.5 py-2 transition-colors hover:bg-teal-50 hover:text-teal-900" href="#fees">Fees</a></li>
+            <li><a class="rounded-full px-3.5 py-2 transition-colors hover:bg-teal-50 hover:text-teal-900" href="#faq">FAQ</a></li>
+            <li><a class="rounded-full px-3.5 py-2 transition-colors hover:bg-teal-50 hover:text-teal-900" href="#contact">Contact</a></li>
+            <li class="ml-3"><a class="btn-primary !px-5 !py-2.5 text-[0.95rem]" href="#contact">Book a free session</a></li>
+          </ul>
+        </nav>
 
         <button
-          class="navbar-toggler navbar-toggler-right"
           type="button"
-          data-toggle="collapse"
-          data-target="#navbarResponsive"
-          aria-controls="navbarResponsive"
+          id="nav-toggle"
+          class="inline-flex items-center gap-2 rounded-full border border-teal-700/25 bg-white px-4 py-2 text-[0.95rem] font-semibold text-teal-900 lg:hidden"
           aria-expanded="false"
-          aria-label="Toggle navigation"
+          aria-controls="mobile-nav"
         >
-          Menu
-          <i class="fas fa-bars"></i>
+          <span class="nav-icon-open"><svg class="size-5" aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" ><path d="M4 5h16"/><path d="M4 12h16"/><path d="M4 19h16"/></svg></span>
+          <span class="nav-icon-close hidden"><svg class="size-5" aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" ><path d="M18 6 6 18"/><path d="m6 6 12 12"/></svg></span>
+          <span id="nav-toggle-label">Menu</span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarResponsive">
-          <ul class="navbar-nav ml-auto">
-            <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#about">About</a>
+      </div>
+
+      <nav
+        id="mobile-nav"
+        aria-label="Main (mobile)"
+        class="border-t border-teal-900/10 bg-cream lg:hidden"
+        hidden
+      >
+        <ul class="mx-auto flex max-w-6xl flex-col gap-1 px-4 pb-6 pt-3 text-lg font-medium sm:px-6">
+          <li><a class="block rounded-xl px-3 py-3 hover:bg-teal-50" href="#about">About</a></li>
+          <li><a class="block rounded-xl px-3 py-3 hover:bg-teal-50" href="#how-i-work">How I work</a></li>
+          <li><a class="block rounded-xl px-3 py-3 hover:bg-teal-50" href="#fees">Fees</a></li>
+          <li><a class="block rounded-xl px-3 py-3 hover:bg-teal-50" href="#faq">FAQ</a></li>
+          <li><a class="block rounded-xl px-3 py-3 hover:bg-teal-50" href="#contact">Contact</a></li>
+          <li class="pt-3"><a class="btn-primary w-full" href="#contact">Book a free session</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main id="main" tabindex="-1" class="focus:outline-none">
+      <!-- Hero -->
+      <section id="top" class="relative isolate overflow-clip bg-linear-to-b from-cream via-cream to-teal-50/80">
+        <div aria-hidden="true" class="pointer-events-none absolute -right-40 -top-40 -z-10 size-[36rem] rounded-full bg-peach-100/70 blur-3xl"></div>
+        <div aria-hidden="true" class="pointer-events-none absolute -bottom-48 -left-40 -z-10 size-[32rem] rounded-full bg-teal-50 blur-3xl"></div>
+
+        <div class="mx-auto grid max-w-6xl items-center gap-12 px-4 pb-20 pt-8 sm:px-6 sm:pt-14 lg:grid-cols-[1.45fr_1fr] lg:gap-14 lg:pb-28 lg:pt-20">
+          <div class="order-2 lg:order-1">
+            <p class="mb-5 inline-flex items-center gap-2 rounded-full bg-white/80 px-4 py-1.5 text-[0.8rem] font-semibold sm:text-sm text-teal-700 ring-1 ring-teal-700/15">
+              <svg class="size-4" aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" ><path d="M11 20a10 10 0 0010-10 25.9 25.9 0 00-1.04-7.281 1 1 0 00-1.755-.325C15.833 5.5 13 5.5 9.8 6.1A7 7 0 0011 20"/><path d="M2 21a5 5 0 012.911-4.544C7.613 15.212 8.351 15.24 11 13"/></svg>
+              Person-centred counselling in Lymm, Cheshire
+            </p>
+            <h1 class="text-[2.6rem] font-semibold leading-[1.08] tracking-tight sm:text-5xl lg:text-[4rem]">
+              A calm, safe space to talk things through
+            </h1>
+            <p class="mt-6 max-w-[34rem] text-lg text-ink-muted sm:text-xl sm:leading-relaxed">
+              I'm Cherry Baguneid, a person-centred counsellor. I help people with anxiety,
+              depression, loss and bereavement, relationships, family and work worries, and
+              life's everyday difficulties. We can meet face to face, walk and talk, or speak by telephone or online.
+            </p>
+            <div class="mt-9 flex flex-col gap-3 sm:flex-row sm:flex-wrap">
+              <a href="#contact" class="btn-primary !px-6 !py-4 text-[1.05rem] shadow-soft sm:!px-7 sm:text-lg">
+                Book your free 20-minute session
+                <svg class="size-5 shrink-0" aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" ><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
+              </a>
+              <a href="#fees" class="btn-secondary !px-6 !py-4 text-[1.05rem] sm:!px-7 sm:text-lg">Fees &amp; availability</a>
+            </div>
+            <ul class="mt-10 flex flex-wrap gap-x-6 gap-y-3 text-[0.95rem] font-medium text-ink">
+              <li class="inline-flex items-center gap-2">
+                <span class="grid size-6 place-items-center rounded-full bg-teal-700 text-white"><svg class="size-3.5" aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" ><path d="M20 6 9 17l-5-5"/></svg></span>
+                MBACP (Accred)
+              </li>
+              <li class="inline-flex items-center gap-2">
+                <span class="grid size-6 place-items-center rounded-full bg-teal-700 text-white"><svg class="size-3.5" aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" ><path d="M20 6 9 17l-5-5"/></svg></span>
+                MA Clinical Counselling
+              </li>
+              <li class="inline-flex items-center gap-2">
+                <span class="grid size-6 place-items-center rounded-full bg-teal-700 text-white"><svg class="size-3.5" aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" ><path d="M20 6 9 17l-5-5"/></svg></span>
+                Free initial session
+              </li>
+            </ul>
+          </div>
+
+          <div class="order-1 flex justify-center lg:order-2 lg:justify-end">
+            <div class="relative w-52 sm:w-72 lg:w-[25rem]">
+              <div aria-hidden="true" class="absolute -right-4 -top-3 size-full rounded-full bg-peach-300 sm:-right-6 sm:-top-4"></div>
+              <div class="relative aspect-square overflow-hidden rounded-full bg-peach-100 shadow-[0_24px_60px_-20px_rgb(22_79_79/0.35)] ring-[6px] ring-white sm:ring-8">
+                <img
+                  src="assets/img/cherry-portrait-800.jpg"
+                  alt="Cherry Baguneid, smiling, photographed outdoors in front of green trees"
+                  width="800"
+                  height="800"
+                  class="size-full scale-[1.04] object-cover"
+                  fetchpriority="high"
+                />
+              </div>
+              <div class="absolute -bottom-4 right-0 hidden items-center gap-3 rounded-2xl bg-white px-4 py-3 shadow-soft ring-1 ring-teal-900/5 sm:flex lg:bottom-4 lg:-left-10 lg:right-auto">
+                <span class="grid size-10 place-items-center rounded-full bg-peach-100 text-teal-900"><svg class="size-5" aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" ><path d="M12.127 21H5a2 2 0 01-2-2V5a2 2 0 012-2h14a2 2 0 012 2v5.125"/><path d="M14.62 17.8A2.25 2.25 0 1118 14.836a2.25 2.25 0 113.38 2.966l-2.626 2.856a.998.998 0 01-1.507 0z"/><path d="M16 2v3"/><path d="M3 9h18"/><path d="M8 2v3"/></svg></span>
+                <span class="text-sm leading-snug">
+                  <span class="block font-semibold text-teal-900">Free first session</span>
+                  <span class="text-ink-muted">20 minutes, no obligation</span>
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- About -->
+      <section id="about" class="bg-white py-20 lg:py-28">
+        <div class="mx-auto grid max-w-6xl gap-12 px-4 sm:px-6 lg:grid-cols-[1.2fr_1fr] lg:gap-20">
+          <div class="reveal">
+            <p class="text-sm font-semibold uppercase tracking-[0.14em] text-teal-700">About me</p>
+            <h2 class="mt-3 text-4xl font-semibold tracking-tight sm:text-5xl">Hello, I'm Cherry</h2>
+            <div class="mt-8 max-w-prose space-y-5 text-ink">
+              <p class="text-xl leading-relaxed text-teal-900">
+                I believe we can all find some experiences in life difficult, and that taking the
+                first steps towards counselling or therapy can be tough. I will help make the process
+                less daunting and work with you through whatever you may be experiencing.
+              </p>
+              <p>
+                I'm a psychotherapist and counsellor who works in a person-centred way, offering and
+                holding a safe, non-judgemental space for you to explore what is going on in your
+                world. I offer individual or group counselling, and I can see you weekly or fortnightly.
+              </p>
+              <p>
+                I have specialised in working with people living with long-term and life-limiting
+                illness, those caring for their loved ones, and those struggling to come to terms with
+                bereavement. I have also facilitated bereavement groups for several years.
+              </p>
+            </div>
+          </div>
+
+          <div class="reveal self-start rounded-3xl bg-cream p-7 ring-1 ring-peach-300/60 sm:p-9 lg:mt-24">
+            <h3 class="flex items-center gap-3 text-2xl font-semibold">
+              <span class="grid size-11 place-items-center rounded-full bg-peach-100 text-teal-900"><svg class="size-5" aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" ><path d="M19.414 14.414C21 12.828 22 11.5 22 9.5a5.5 5.5 0 0 0-9.591-3.676.6.6 0 0 1-.818.001A5.5 5.5 0 0 0 2 9.5c0 2.3 1.5 4 3 5.5l5.535 5.362a2 2 0 0 0 2.879.052 2.12 2.12 0 0 0-.004-3 2.124 2.124 0 1 0 3-3 2.124 2.124 0 0 0 3.004 0 2 2 0 0 0 0-2.828l-1.881-1.882a2.41 2.41 0 0 0-3.409 0l-1.71 1.71a2 2 0 0 1-2.828 0 2 2 0 0 1 0-2.828l2.823-2.762"/></svg></span>
+              What I can help with
+            </h3>
+            <ul class="mt-6 flex flex-wrap gap-2.5 text-[0.95rem] font-medium text-teal-900">
+              <li class="rounded-full bg-white px-4 py-2 ring-1 ring-teal-700/15">Anxiety</li>
+              <li class="rounded-full bg-white px-4 py-2 ring-1 ring-teal-700/15">Depression</li>
+              <li class="rounded-full bg-white px-4 py-2 ring-1 ring-teal-700/15">Loss &amp; bereavement</li>
+              <li class="rounded-full bg-white px-4 py-2 ring-1 ring-teal-700/15">Relationship issues</li>
+              <li class="rounded-full bg-white px-4 py-2 ring-1 ring-teal-700/15">Family issues</li>
+              <li class="rounded-full bg-white px-4 py-2 ring-1 ring-teal-700/15">Work issues</li>
+              <li class="rounded-full bg-white px-4 py-2 ring-1 ring-teal-700/15">Domestic violence &amp; sexual abuse</li>
+              <li class="rounded-full bg-white px-4 py-2 ring-1 ring-teal-700/15">Long-term &amp; life-limiting illness</li>
+              <li class="rounded-full bg-white px-4 py-2 ring-1 ring-teal-700/15">Supporting carers</li>
+              <li class="rounded-full bg-white px-4 py-2 ring-1 ring-teal-700/15">General life difficulties</li>
+            </ul>
+            <p class="mt-7 border-t border-peach-300/60 pt-6 text-[0.95rem] text-ink-muted">
+              Individual or group counselling, weekly or fortnightly.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- How I work -->
+      <section id="how-i-work" class="py-20 lg:py-28">
+        <div class="mx-auto max-w-6xl px-4 sm:px-6">
+          <div class="reveal max-w-2xl">
+            <p class="text-sm font-semibold uppercase tracking-[0.14em] text-teal-700">How I work</p>
+            <h2 class="mt-3 text-4xl font-semibold tracking-tight sm:text-5xl">Ways we can work together</h2>
+            <p class="mt-5 text-lg text-ink-muted">
+              Choose whatever feels most comfortable for you. We can talk about the options in your
+              free initial session.
+            </p>
+          </div>
+
+          <ul class="mt-12 grid gap-5 sm:grid-cols-2 lg:grid-cols-4">
+            <li class="reveal rounded-3xl bg-white p-7 shadow-soft ring-1 ring-teal-900/5">
+              <span class="grid size-13 place-items-center rounded-2xl bg-teal-50 text-teal-700"><svg class="size-6" aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" ><path d="M19 9V6a2 2 0 0 0-2-2H7a2 2 0 0 0-2 2v3"/><path d="M3 16a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-5a2 2 0 0 0-4 0v1.5a.5.5 0 0 1-.5.5h-9a.5.5 0 0 1-.5-.5V11a2 2 0 0 0-4 0z"/><path d="M5 18v2"/><path d="M19 18v2"/></svg></span>
+              <h3 class="mt-6 text-xl font-semibold">Face to face</h3>
+              <p class="mt-2 text-ink-muted">In private, confidential rooms, where you can talk freely.</p>
             </li>
-            <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#projects"
-                >Qualifications</a
+            <li class="reveal rounded-3xl bg-white p-7 shadow-soft ring-1 ring-teal-900/5">
+              <span class="grid size-13 place-items-center rounded-2xl bg-peach-100 text-teal-900"><svg class="size-6" aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" ><path d="M4 16v-2.38C4 11.5 2.97 10.5 3 8c.03-2.72 1.49-6 4.5-6C9.37 2 10 3.8 10 5.5c0 3.11-2 5.66-2 8.68V16a2 2 0 1 1-4 0Z"/><path d="M20 20v-2.38c0-2.12 1.03-3.12 1-5.62-.03-2.72-1.49-6-4.5-6C14.63 6 14 7.8 14 9.5c0 3.11 2 5.66 2 8.68V20a2 2 0 1 0 4 0Z"/><path d="M16 17h4"/><path d="M4 13h4"/></svg></span>
+              <h3 class="mt-6 text-xl font-semibold">Walk and talk therapy</h3>
+              <p class="mt-2 text-ink-muted">Talk things through side by side, outdoors, on a walk.</p>
+            </li>
+            <li class="reveal rounded-3xl bg-white p-7 shadow-soft ring-1 ring-teal-900/5">
+              <span class="grid size-13 place-items-center rounded-2xl bg-teal-50 text-teal-700"><svg class="size-6" aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" ><path d="M13.832 16.568a1 1 0 0 0 1.213-.303l.355-.465A2 2 0 0 1 17 15h3a2 2 0 0 1 2 2v3a2 2 0 0 1-2 2A18 18 0 0 1 2 4a2 2 0 0 1 2-2h3a2 2 0 0 1 2 2v3a2 2 0 0 1-.8 1.6l-.468.351a1 1 0 0 0-.292 1.233 14 14 0 0 0 6.392 6.384"/></svg></span>
+              <h3 class="mt-6 text-xl font-semibold">Telephone</h3>
+              <p class="mt-2 text-ink-muted">Counselling by phone, from wherever you feel at ease.</p>
+            </li>
+            <li class="reveal rounded-3xl bg-white p-7 shadow-soft ring-1 ring-teal-900/5">
+              <span class="grid size-13 place-items-center rounded-2xl bg-peach-100 text-teal-900"><svg class="size-6" aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" ><path d="m16 13 5.223 3.482a.5.5 0 0 0 .777-.416V7.87a.5.5 0 0 0-.752-.432L16 10.5"/><rect x="2" y="6" width="14" height="12" rx="2"/></svg></span>
+              <h3 class="mt-6 text-xl font-semibold">Online via Zoom</h3>
+              <p class="mt-2 text-ink-muted">Video sessions from the comfort and privacy of home.</p>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <!-- What to expect -->
+      <section id="what-to-expect" class="bg-teal-50 py-20 lg:py-28">
+        <div class="mx-auto max-w-6xl px-4 sm:px-6">
+          <div class="reveal mx-auto max-w-2xl text-center">
+            <p class="text-sm font-semibold uppercase tracking-[0.14em] text-teal-700">What to expect</p>
+            <h2 class="mt-3 text-4xl font-semibold tracking-tight sm:text-5xl">Getting started is simple</h2>
+            <p class="mt-5 text-lg text-ink-muted">Three gentle steps, at your own pace.</p>
+          </div>
+
+          <ol class="mt-14 grid gap-6 lg:grid-cols-3 lg:gap-8">
+            <li class="reveal relative rounded-3xl bg-white p-8 shadow-soft">
+              <span class="grid size-12 place-items-center rounded-full bg-teal-700 font-display text-xl font-semibold text-white">1</span>
+              <h3 class="mt-6 text-2xl font-semibold">Get in touch</h3>
+              <p class="mt-3 text-ink-muted">
+                Send me a message using the form below, email me, or give me a call. Your enquiry is
+                confidential.
+              </p>
+            </li>
+            <li class="reveal relative rounded-3xl bg-white p-8 shadow-soft">
+              <span class="grid size-12 place-items-center rounded-full bg-teal-700 font-display text-xl font-semibold text-white">2</span>
+              <h3 class="mt-6 text-2xl font-semibold">Free 20-minute initial session</h3>
+              <p class="mt-3 text-ink-muted">
+                We discuss what you feel you need from therapy and see if we could work together.
+                There's no charge and no obligation.
+              </p>
+            </li>
+            <li class="reveal relative rounded-3xl bg-white p-8 shadow-soft">
+              <span class="grid size-12 place-items-center rounded-full bg-teal-700 font-display text-xl font-semibold text-white">3</span>
+              <h3 class="mt-6 text-2xl font-semibold">Regular sessions</h3>
+              <p class="mt-3 text-ink-muted">
+                50-minute sessions, weekly or fortnightly. Counselling is open-ended, and we review how
+                things are going together along the way.
+              </p>
+            </li>
+          </ol>
+
+          <div class="reveal mt-12 text-center">
+            <a href="#contact" class="btn-primary !px-7 !py-4 text-lg shadow-soft">
+              Book your free 20-minute session
+              <svg class="size-5" aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" ><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <!-- Qualifications -->
+      <section id="qualifications" class="bg-white py-20 lg:py-28">
+        <div class="mx-auto grid max-w-6xl gap-12 px-4 sm:px-6 lg:grid-cols-[1fr_1.3fr] lg:gap-20">
+          <div class="reveal">
+            <p class="text-sm font-semibold uppercase tracking-[0.14em] text-teal-700">Training &amp; standards</p>
+            <h2 class="mt-3 text-4xl font-semibold tracking-tight sm:text-5xl">Qualifications &amp; membership</h2>
+            <p class="mt-5 max-w-md text-lg text-ink-muted">
+              My background brings together counselling and nursing qualifications.
+            </p>
+            <div class="mt-8 flex max-w-md items-start gap-4 rounded-2xl bg-peach-100 p-6">
+              <span class="mt-0.5 grid size-10 shrink-0 place-items-center rounded-full bg-white text-teal-900"><svg class="size-5" aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" ><path d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z"/><path d="m9 12 2 2 4-4"/></svg></span>
+              <p class="text-ink">
+                I have monthly supervision with a qualified supervisor and am fully insured.
+              </p>
+            </div>
+          </div>
+
+          <ul class="reveal divide-y divide-teal-900/10 self-start rounded-3xl bg-cream px-6 ring-1 ring-teal-900/5 sm:px-8">
+            <li class="flex items-center gap-5 py-6">
+              <span class="grid size-12 shrink-0 place-items-center rounded-2xl bg-white text-teal-700 shadow-soft"><svg class="size-6" aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" ><path d="M3.85 8.62a4 4 0 0 1 4.78-4.77 4 4 0 0 1 6.74 0 4 4 0 0 1 4.78 4.78 4 4 0 0 1 0 6.74 4 4 0 0 1-4.77 4.78 4 4 0 0 1-6.75 0 4 4 0 0 1-4.78-4.77 4 4 0 0 1 0-6.76Z"/><path d="m16 9-5.5 5.5L8 12"/></svg></span>
+              <div>
+                <p class="font-semibold text-teal-900">MBACP (Accred)</p>
+                <p class="text-[0.95rem] text-ink-muted">British Association for Counselling and Psychotherapy</p>
+              </div>
+            </li>
+            <li class="flex items-center gap-5 py-6">
+              <span class="grid size-12 shrink-0 place-items-center rounded-2xl bg-white text-teal-700 shadow-soft"><svg class="size-6" aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" ><path d="M21.42 10.922a1 1 0 0 0-.019-1.838L12.83 5.18a2 2 0 0 0-1.66 0L2.6 9.08a1 1 0 0 0 0 1.832l8.57 3.908a2 2 0 0 0 1.66 0z"/><path d="M22 10v6"/><path d="M6 12.5V16a6 3 0 0 0 12 0v-3.5"/></svg></span>
+              <div>
+                <p class="font-semibold text-teal-900">Master of Arts in Clinical Counselling</p>
+                <p class="text-[0.95rem] text-ink-muted">University of Chester</p>
+              </div>
+            </li>
+            <li class="flex items-center gap-5 py-6">
+              <span class="grid size-12 shrink-0 place-items-center rounded-2xl bg-white text-teal-700 shadow-soft"><svg class="size-6" aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" ><path d="M21.42 10.922a1 1 0 0 0-.019-1.838L12.83 5.18a2 2 0 0 0-1.66 0L2.6 9.08a1 1 0 0 0 0 1.832l8.57 3.908a2 2 0 0 0 1.66 0z"/><path d="M22 10v6"/><path d="M6 12.5V16a6 3 0 0 0 12 0v-3.5"/></svg></span>
+              <div>
+                <p class="font-semibold text-teal-900">Dynamic Interpersonal Therapy Practitioner (DIT)</p>
+              </div>
+            </li>
+            <li class="flex items-center gap-5 py-6">
+              <span class="grid size-12 shrink-0 place-items-center rounded-2xl bg-white text-teal-700 shadow-soft"><svg class="size-6" aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" ><path d="M21.42 10.922a1 1 0 0 0-.019-1.838L12.83 5.18a2 2 0 0 0-1.66 0L2.6 9.08a1 1 0 0 0 0 1.832l8.57 3.908a2 2 0 0 0 1.66 0z"/><path d="M22 10v6"/><path d="M6 12.5V16a6 3 0 0 0 12 0v-3.5"/></svg></span>
+              <div>
+                <p class="font-semibold text-teal-900">Certificate in Counselling</p>
+                <p class="text-[0.95rem] text-ink-muted">Warrington</p>
+              </div>
+            </li>
+            <li class="flex items-center gap-5 py-6">
+              <span class="grid size-12 shrink-0 place-items-center rounded-2xl bg-white text-teal-700 shadow-soft"><svg class="size-6" aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" ><path d="M11 2v2"/><path d="M5 2v2"/><path d="M5 3H4a2 2 0 0 0-2 2v4a6 6 0 0 0 12 0V5a2 2 0 0 0-2-2h-1"/><path d="M8 15a6 6 0 0 0 12 0v-3"/><circle cx="20" cy="10" r="2"/></svg></span>
+              <div>
+                <p class="font-semibold text-teal-900">Diploma in Nursing Studies</p>
+                <p class="text-[0.95rem] text-ink-muted">University of Salford</p>
+              </div>
+            </li>
+            <li class="flex items-center gap-5 py-6">
+              <span class="grid size-12 shrink-0 place-items-center rounded-2xl bg-white text-teal-700 shadow-soft"><svg class="size-6" aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" ><path d="M11 2v2"/><path d="M5 2v2"/><path d="M5 3H4a2 2 0 0 0-2 2v4a6 6 0 0 0 12 0V5a2 2 0 0 0-2-2h-1"/><path d="M8 15a6 6 0 0 0 12 0v-3"/><circle cx="20" cy="10" r="2"/></svg></span>
+              <div>
+                <p class="font-semibold text-teal-900">Registered General Nurse</p>
+                <p class="text-[0.95rem] text-ink-muted">University of Manchester</p>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <!-- Fees & availability -->
+      <section id="fees" class="py-20 lg:py-28">
+        <div class="mx-auto max-w-6xl px-4 sm:px-6">
+          <div class="reveal mx-auto max-w-2xl text-center">
+            <p class="text-sm font-semibold uppercase tracking-[0.14em] text-teal-700">Clear, simple pricing</p>
+            <h2 class="mt-3 text-4xl font-semibold tracking-tight sm:text-5xl">Fees &amp; availability</h2>
+            <p class="mt-5 text-lg text-ink-muted">No hidden costs. Your first session is always free.</p>
+          </div>
+
+          <div class="mt-14 grid items-stretch gap-6 lg:grid-cols-3 lg:gap-7">
+            <!-- Initial -->
+            <article class="reveal flex flex-col rounded-3xl bg-white p-8 shadow-soft ring-1 ring-teal-900/5">
+              <div class="flex items-center justify-between gap-3">
+                <h3 class="text-xl font-semibold">Initial session</h3>
+                <span class="rounded-full bg-peach-100 px-3 py-1 text-sm font-semibold text-teal-900">No obligation</span>
+              </div>
+              <p class="mt-6 font-display text-5xl font-semibold text-teal-900">Free</p>
+              <p class="mt-2 font-medium text-ink-muted">20 minutes</p>
+              <p class="mt-6 border-t border-teal-900/10 pt-6 text-ink-muted">
+                A chance to discuss what you feel you need from therapy and to see if we could work
+                together.
+              </p>
+            </article>
+
+            <!-- Session -->
+            <article class="reveal relative flex flex-col rounded-3xl bg-white p-8 shadow-[0_20px_50px_-20px_rgb(22_79_79/0.35)] ring-2 ring-teal-700 lg:-my-4 lg:py-12">
+              <span class="absolute -top-4 left-1/2 -translate-x-1/2 whitespace-nowrap rounded-full bg-teal-700 px-4 py-1.5 text-sm font-semibold text-white shadow-soft">Ongoing counselling</span>
+              <h3 class="text-xl font-semibold">Counselling session</h3>
+              <p class="mt-6 font-display text-teal-900">
+                <span class="text-6xl font-semibold">£60</span>
+                <span class="ml-1 font-sans text-lg font-medium text-ink-muted">per session</span>
+              </p>
+              <p class="mt-2 font-medium text-ink-muted">Each session lasts 50 minutes</p>
+              <ul class="mt-6 space-y-2.5 border-t border-teal-900/10 pt-6 text-ink">
+                <li class="flex gap-3"><span class="mt-1 text-teal-700"><svg class="size-5" aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" ><path d="M20 6 9 17l-5-5"/></svg></span>Weekly or fortnightly</li>
+                <li class="flex gap-3"><span class="mt-1 text-teal-700"><svg class="size-5" aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" ><path d="M20 6 9 17l-5-5"/></svg></span>Face to face, walk and talk, phone or Zoom</li>
+                <li class="flex gap-3"><span class="mt-1 text-teal-700"><svg class="size-5" aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" ><path d="M20 6 9 17l-5-5"/></svg></span>Open-ended, with regular reviews</li>
+              </ul>
+              <a href="#contact" class="btn-primary mt-8 w-full !py-3.5">Book a free first session</a>
+            </article>
+
+            <!-- Concessions -->
+            <article class="reveal flex flex-col rounded-3xl bg-white p-8 shadow-soft ring-1 ring-teal-900/5">
+              <div class="flex items-center justify-between gap-3">
+                <h3 class="text-xl font-semibold">Concessions</h3>
+                <span class="grid size-9 place-items-center rounded-full bg-teal-50 text-teal-700"><svg class="size-5" aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" ><path d="M11 14h2a2 2 0 0 0 0-4h-3c-.6 0-1.1.2-1.4.6L3 16"/><path d="m14.45 13.39 5.05-4.694C20.196 8 21 6.85 21 5.75a2.75 2.75 0 0 0-4.797-1.837.276.276 0 0 1-.406 0A2.75 2.75 0 0 0 11 5.75c0 1.2.802 2.248 1.5 2.946L16 11.95"/><path d="m2 15 6 6"/><path d="m7 20 1.6-1.4c.3-.4.8-.6 1.4-.6h4c1.1 0 2.1-.4 2.8-1.2l4.6-4.4a1 1 0 0 0-2.75-2.91"/></svg></span>
+              </div>
+              <p class="mt-6 font-display text-3xl font-semibold leading-tight text-teal-900">Reduced rate</p>
+              <p class="mt-2 font-medium text-ink-muted">Negotiable</p>
+              <p class="mt-6 border-t border-teal-900/10 pt-6 text-ink-muted">
+                A concessionary rate can be negotiated if you are unwaged (students or unemployed).
+                Just mention it when you get in touch.
+              </p>
+            </article>
+          </div>
+
+          <!-- Availability -->
+          <div class="reveal mt-12 grid gap-8 rounded-3xl bg-teal-900 p-8 text-white sm:p-10 lg:mt-16 lg:grid-cols-[1fr_1.4fr] lg:gap-14 lg:p-12">
+            <div>
+              <span class="grid size-12 place-items-center rounded-2xl bg-white/10 text-peach-300"><svg class="size-6" aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" ><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg></span>
+              <h3 class="mt-6 text-3xl font-semibold text-white">When I'm available</h3>
+              <p class="mt-4 text-white/85">
+                Daytime appointments on Thursday and Friday, from 9am to 5pm.
+              </p>
+              <a href="#contact" class="mt-7 inline-flex items-center gap-2 font-semibold text-peach-300 underline decoration-peach-300/40 underline-offset-4 hover:decoration-peach-300">
+                Ask about a time that suits you <svg class="size-4" aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" ><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
+              </a>
+            </div>
+            <dl class="divide-y divide-white/10 rounded-2xl bg-white/5 px-5 ring-1 ring-white/10 sm:px-7">
+              <div class="flex items-center justify-between gap-4 py-3.5 text-white/75">
+                <dt>Monday</dt>
+                <dd>Not available</dd>
+              </div>
+              <div class="flex items-center justify-between gap-4 py-3.5 text-white/75">
+                <dt>Tuesday</dt>
+                <dd>Not available</dd>
+              </div>
+              <div class="flex items-center justify-between gap-4 py-3.5 text-white/75">
+                <dt>Wednesday</dt>
+                <dd>Not available</dd>
+              </div>
+              <div class="flex items-center justify-between gap-4 py-3.5">
+                <dt class="font-medium">Thursday</dt>
+                <dd class="font-semibold text-peach-300">9am – 5pm</dd>
+              </div>
+              <div class="flex items-center justify-between gap-4 py-3.5">
+                <dt class="font-medium">Friday</dt>
+                <dd class="font-semibold text-peach-300">9am – 5pm</dd>
+              </div>
+              <div class="flex items-center justify-between gap-4 py-3.5 text-white/75">
+                <dt>Saturday</dt>
+                <dd>Not available</dd>
+              </div>
+              <div class="flex items-center justify-between gap-4 py-3.5 text-white/75">
+                <dt>Sunday</dt>
+                <dd>Not available</dd>
+              </div>
+            </dl>
+          </div>
+        </div>
+      </section>
+
+      <!-- FAQ -->
+      <section id="faq" class="bg-white py-20 lg:py-28">
+        <div class="mx-auto grid max-w-6xl gap-12 px-4 sm:px-6 lg:grid-cols-[1fr_1.6fr] lg:gap-20">
+          <div class="reveal lg:sticky lg:top-28 lg:self-start">
+            <p class="text-sm font-semibold uppercase tracking-[0.14em] text-teal-700">FAQ</p>
+            <h2 class="mt-3 text-4xl font-semibold tracking-tight sm:text-5xl">Questions you might have</h2>
+            <p class="mt-5 text-lg text-ink-muted">
+              If your question isn't answered here, please
+              <a href="#contact" class="font-semibold text-teal-700 underline underline-offset-4 hover:text-teal-900">get in touch</a>.
+              I'm happy to help.
+            </p>
+          </div>
+
+          <div class="reveal space-y-3">
+            <details class="group rounded-2xl bg-cream ring-1 ring-teal-900/5 open:bg-teal-50/60 open:ring-teal-700/20">
+              <summary class="flex cursor-pointer items-center justify-between gap-4 rounded-2xl px-6 py-5 text-lg font-semibold text-teal-900">
+                What happens in the free initial session?
+                <span class="grid size-8 shrink-0 place-items-center rounded-full bg-white text-teal-700 transition-transform duration-200 group-open:rotate-180"><svg class="size-5" aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" ><path d="m6 9 6 6 6-6"/></svg></span>
+              </summary>
+              <div class="max-w-prose px-6 pb-6 text-ink">
+                <p>
+                  It's a relaxed, 20-minute conversation with no charge. It gives us the opportunity to
+                  discuss what you feel you need from your therapy and for us to see if we could work
+                  together. There's no obligation to continue afterwards.
+                </p>
+              </div>
+            </details>
+
+            <details class="group rounded-2xl bg-cream ring-1 ring-teal-900/5 open:bg-teal-50/60 open:ring-teal-700/20">
+              <summary class="flex cursor-pointer items-center justify-between gap-4 rounded-2xl px-6 py-5 text-lg font-semibold text-teal-900">
+                How long are sessions and how often?
+                <span class="grid size-8 shrink-0 place-items-center rounded-full bg-white text-teal-700 transition-transform duration-200 group-open:rotate-180"><svg class="size-5" aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" ><path d="m6 9 6 6 6-6"/></svg></span>
+              </summary>
+              <div class="max-w-prose px-6 pb-6 text-ink">
+                <p>
+                  Each session lasts 50 minutes, and I see clients either weekly or fortnightly.
+                  Counselling is open-ended, and we review how things are going together from time to
+                  time.
+                </p>
+              </div>
+            </details>
+
+            <details class="group rounded-2xl bg-cream ring-1 ring-teal-900/5 open:bg-teal-50/60 open:ring-teal-700/20">
+              <summary class="flex cursor-pointer items-center justify-between gap-4 rounded-2xl px-6 py-5 text-lg font-semibold text-teal-900">
+                How much does counselling cost?
+                <span class="grid size-8 shrink-0 place-items-center rounded-full bg-white text-teal-700 transition-transform duration-200 group-open:rotate-180"><svg class="size-5" aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" ><path d="m6 9 6 6 6-6"/></svg></span>
+              </summary>
+              <div class="max-w-prose px-6 pb-6 text-ink">
+                <p>
+                  The initial 20-minute session is free. After that, I charge £60 for each 50-minute
+                  session. A concessionary rate can be negotiated if you are unwaged (students or
+                  unemployed).
+                </p>
+              </div>
+            </details>
+
+            <details class="group rounded-2xl bg-cream ring-1 ring-teal-900/5 open:bg-teal-50/60 open:ring-teal-700/20">
+              <summary class="flex cursor-pointer items-center justify-between gap-4 rounded-2xl px-6 py-5 text-lg font-semibold text-teal-900">
+                Is what I say confidential?
+                <span class="grid size-8 shrink-0 place-items-center rounded-full bg-white text-teal-700 transition-transform duration-200 group-open:rotate-180"><svg class="size-5" aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" ><path d="m6 9 6 6 6-6"/></svg></span>
+              </summary>
+              <div class="max-w-prose space-y-4 px-6 pb-6 text-ink">
+                <p>
+                  Yes. What you share in our sessions is kept confidential. There are a few limits: if I
+                  believe there is a risk of harm to you or to someone else, or where I have a legal
+                  obligation to share information.
+                </p>
+                <p>
+                  I have monthly supervision with a qualified supervisor, where I discuss my work without
+                  using your name. If I ever needed to break confidentiality, I would always try to speak
+                  to you first, unless safeguarding prevents it.
+                </p>
+              </div>
+            </details>
+
+            <details class="group rounded-2xl bg-cream ring-1 ring-teal-900/5 open:bg-teal-50/60 open:ring-teal-700/20">
+              <summary class="flex cursor-pointer items-center justify-between gap-4 rounded-2xl px-6 py-5 text-lg font-semibold text-teal-900">
+                Can I have counselling online or by phone?
+                <span class="grid size-8 shrink-0 place-items-center rounded-full bg-white text-teal-700 transition-transform duration-200 group-open:rotate-180"><svg class="size-5" aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" ><path d="m6 9 6 6 6-6"/></svg></span>
+              </summary>
+              <div class="max-w-prose px-6 pb-6 text-ink">
+                <p>
+                  Yes. As well as face-to-face sessions in private, confidential rooms, I offer telephone
+                  counselling and online sessions via Zoom. Walk and talk therapy is also available.
+                </p>
+              </div>
+            </details>
+
+            <details class="group rounded-2xl bg-cream ring-1 ring-teal-900/5 open:bg-teal-50/60 open:ring-teal-700/20">
+              <summary class="flex cursor-pointer items-center justify-between gap-4 rounded-2xl px-6 py-5 text-lg font-semibold text-teal-900">
+                What happens to my personal information?
+                <span class="grid size-8 shrink-0 place-items-center rounded-full bg-white text-teal-700 transition-transform duration-200 group-open:rotate-180"><svg class="size-5" aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" ><path d="m6 9 6 6 6-6"/></svg></span>
+              </summary>
+              <div class="max-w-prose space-y-4 px-6 pb-6 text-ink">
+                <p>
+                  Your records are kept securely. They are held for three years after our counselling
+                  ends and are then securely destroyed. If you make an enquiry but decide not to go
+                  ahead, your details are deleted within one month.
+                </p>
+                <p>
+                  You can read the full details in my
+                  <a href="documents/GDPR.pdf" download class="font-semibold text-teal-700 underline underline-offset-4 hover:text-teal-900">privacy notice and GDPR policy (PDF)</a>.
+                </p>
+              </div>
+            </details>
+
+            <details class="group rounded-2xl bg-cream ring-1 ring-teal-900/5 open:bg-teal-50/60 open:ring-teal-700/20">
+              <summary class="flex cursor-pointer items-center justify-between gap-4 rounded-2xl px-6 py-5 text-lg font-semibold text-teal-900">
+                Do you work with groups?
+                <span class="grid size-8 shrink-0 place-items-center rounded-full bg-white text-teal-700 transition-transform duration-200 group-open:rotate-180"><svg class="size-5" aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" ><path d="m6 9 6 6 6-6"/></svg></span>
+              </summary>
+              <div class="max-w-prose px-6 pb-6 text-ink">
+                <p>
+                  Yes. I offer individual or group counselling, and I have facilitated bereavement groups
+                  for several years.
+                </p>
+              </div>
+            </details>
+          </div>
+        </div>
+
+        <!-- Documents -->
+        <div id="documents" class="mx-auto mt-20 max-w-6xl px-4 sm:px-6 lg:mt-24">
+          <div class="reveal rounded-3xl bg-cream p-7 ring-1 ring-peach-300/60 sm:p-10">
+            <h3 class="text-2xl font-semibold sm:text-3xl">Documents</h3>
+            <p class="mt-2 text-ink-muted">Clear information about how I work and how your data is handled.</p>
+            <div class="mt-8 grid gap-5 md:grid-cols-2">
+              <a
+                href="documents/GDPR.pdf"
+                download="Lymm Counselling - Privacy notice and GDPR policy.pdf"
+                class="group flex items-start gap-5 rounded-2xl bg-white p-6 shadow-soft ring-1 ring-teal-900/5 transition hover:-translate-y-0.5 hover:ring-teal-700/30"
               >
-            </li>
-            <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#signup"
-                >Fees and Availability</a
+                <span class="grid size-12 shrink-0 place-items-center rounded-2xl bg-teal-50 text-teal-700"><svg class="size-6" aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" ><path d="M6 22a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h8a2.4 2.4 0 0 1 1.704.706l3.588 3.588A2.4 2.4 0 0 1 20 8v12a2 2 0 0 1-2 2z"/><path d="M14 2v5a1 1 0 0 0 1 1h5"/><path d="M10 9H8"/><path d="M16 13H8"/><path d="M16 17H8"/></svg></span>
+                <span class="min-w-0 flex-1">
+                  <span class="block font-semibold text-teal-900">Privacy notice &amp; GDPR policy (PDF)</span>
+                  <span class="mt-1 block text-[0.95rem] text-ink-muted">
+                    How your personal, sensitive and confidential data, including session records,
+                    texts and emails, is kept private and held securely.
+                  </span>
+                  <span class="mt-3 inline-flex items-center gap-2 text-[0.95rem] font-semibold text-teal-700 group-hover:text-teal-900">
+                    <svg class="size-4" aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" ><path d="M12 15V3"/><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><path d="m7 10 5 5 5-5"/></svg> Download
+                  </span>
+                </span>
+              </a>
+              <a
+                href="documents/Counselling%20Contract.pdf"
+                download="Lymm Counselling - Counselling contract.pdf"
+                class="group flex items-start gap-5 rounded-2xl bg-white p-6 shadow-soft ring-1 ring-teal-900/5 transition hover:-translate-y-0.5 hover:ring-teal-700/30"
               >
+                <span class="grid size-12 shrink-0 place-items-center rounded-2xl bg-peach-100 text-teal-900"><svg class="size-6" aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" ><path d="M6 22a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h8a2.4 2.4 0 0 1 1.704.706l3.588 3.588A2.4 2.4 0 0 1 20 8v12a2 2 0 0 1-2 2z"/><path d="M14 2v5a1 1 0 0 0 1 1h5"/><path d="M10 9H8"/><path d="M16 13H8"/><path d="M16 17H8"/></svg></span>
+                <span class="min-w-0 flex-1">
+                  <span class="block font-semibold text-teal-900">Counselling contract (PDF)</span>
+                  <span class="mt-1 block text-[0.95rem] text-ink-muted">
+                    My terms and conditions, setting out the boundaries and limitations of the counselling
+                    relationship.
+                  </span>
+                  <span class="mt-3 inline-flex items-center gap-2 text-[0.95rem] font-semibold text-teal-700 group-hover:text-teal-900">
+                    <svg class="size-4" aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" ><path d="M12 15V3"/><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><path d="m7 10 5 5 5-5"/></svg> Download
+                  </span>
+                </span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Contact -->
+      <section id="contact" class="relative isolate overflow-clip bg-teal-50 py-20 lg:py-28">
+        <div aria-hidden="true" class="pointer-events-none absolute -right-32 bottom-0 -z-10 size-[28rem] rounded-full bg-peach-100/80 blur-3xl"></div>
+        <div class="mx-auto grid max-w-6xl gap-12 px-4 sm:px-6 lg:grid-cols-[1fr_1.1fr] lg:gap-16">
+          <div class="reveal">
+            <p class="text-sm font-semibold uppercase tracking-[0.14em] text-teal-700">Contact</p>
+            <h2 class="mt-3 text-4xl font-semibold tracking-tight sm:text-5xl">Get in touch</h2>
+            <p class="mt-5 max-w-md text-lg text-ink">
+              Taking the first step can feel daunting. Send me a message and I'll get back to you to
+              arrange your free initial session. Your enquiry is confidential.
+            </p>
+
+            <ul class="mt-9 space-y-4">
+              <li>
+                <a href="mailto:admin@lymmcounselling.org.uk" class="group flex items-center gap-4">
+                  <span class="grid size-12 shrink-0 place-items-center rounded-2xl bg-white text-teal-700 shadow-soft"><svg class="size-5" aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" ><path d="m22 7-8.991 5.727a2 2 0 0 1-2.009 0L2 7"/><rect x="2" y="4" width="20" height="16" rx="2"/></svg></span>
+                  <span class="min-w-0">
+                    <span class="block text-sm font-medium text-ink-muted">Email</span>
+                    <span class="block break-all font-semibold text-teal-900 underline decoration-teal-700/30 underline-offset-4 group-hover:decoration-teal-700">admin@lymmcounselling.org.uk</span>
+                  </span>
+                </a>
+              </li>
+              <li>
+                <a href="tel:+447871925649" class="group flex items-center gap-4">
+                  <span class="grid size-12 shrink-0 place-items-center rounded-2xl bg-white text-teal-700 shadow-soft"><svg class="size-5" aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" ><path d="M13.832 16.568a1 1 0 0 0 1.213-.303l.355-.465A2 2 0 0 1 17 15h3a2 2 0 0 1 2 2v3a2 2 0 0 1-2 2A18 18 0 0 1 2 4a2 2 0 0 1 2-2h3a2 2 0 0 1 2 2v3a2 2 0 0 1-.8 1.6l-.468.351a1 1 0 0 0-.292 1.233 14 14 0 0 0 6.392 6.384"/></svg></span>
+                  <span>
+                    <span class="block text-sm font-medium text-ink-muted">Phone</span>
+                    <span class="block font-semibold text-teal-900 underline decoration-teal-700/30 underline-offset-4 group-hover:decoration-teal-700">07871&nbsp;925649</span>
+                  </span>
+                </a>
+              </li>
+              <li class="flex items-start gap-4">
+                <span class="grid size-12 shrink-0 place-items-center rounded-2xl bg-white text-teal-700 shadow-soft"><svg class="size-5" aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" ><path d="M8 2v3"/><path d="M16 2v3"/><rect x="3" y="3" width="18" height="18" rx="2"/><path d="M3 9h18"/><path d="M8 13h.01"/><path d="M12 13h.01"/><path d="M16 13h.01"/><path d="M8 17h.01"/><path d="M12 17h.01"/><path d="M16 17h.01"/></svg></span>
+                <span>
+                  <span class="block text-sm font-medium text-ink-muted">Availability</span>
+                  <span class="block font-semibold text-teal-900">Thu &amp; Fri: 9am – 5pm</span>
+                </span>
+              </li>
+            </ul>
+          </div>
+
+          <div class="reveal rounded-3xl bg-white p-6 shadow-[0_24px_60px_-24px_rgb(22_79_79/0.3)] ring-1 ring-teal-900/5 sm:p-10">
+            <div id="form-wrap">
+              <h3 class="text-2xl font-semibold">Send me a message</h3>
+              <p class="mt-1 text-[0.95rem] text-ink-muted">Fields marked <span aria-hidden="true">*</span><span class="sr-only">with an asterisk</span> are required.</p>
+              <form id="contact-form" action="https://formspree.io/f/moqpbkwn" method="POST" class="mt-7 space-y-5">
+                <input type="hidden" name="_subject" value="New enquiry from lymmcounselling.org.uk" />
+                <div class="hidden" aria-hidden="true">
+                  <label for="gotcha">Leave this field empty</label>
+                  <input type="text" id="gotcha" name="_gotcha" tabindex="-1" autocomplete="off" />
+                </div>
+
+                <div>
+                  <label for="name" class="mb-2 block font-semibold text-teal-900">Name <span aria-hidden="true" class="text-teal-700">*</span></label>
+                  <input
+                    id="name"
+                    name="name"
+                    type="text"
+                    required
+                    autocomplete="name"
+                    class="block w-full rounded-xl border border-ink/20 bg-cream/60 px-4 py-3 text-ink transition focus:border-teal-700 focus:bg-white"
+                  />
+                </div>
+                <div class="grid gap-5 sm:grid-cols-2">
+                  <div>
+                    <label for="email" class="mb-2 block font-semibold text-teal-900">Email <span aria-hidden="true" class="text-teal-700">*</span></label>
+                    <input
+                      id="email"
+                      name="email"
+                      type="email"
+                      required
+                      autocomplete="email"
+                      class="block w-full rounded-xl border border-ink/20 bg-cream/60 px-4 py-3 text-ink transition focus:border-teal-700 focus:bg-white"
+                    />
+                  </div>
+                  <div>
+                    <label for="phone" class="mb-2 block font-semibold text-teal-900">Phone <span class="font-normal text-ink-muted">(optional)</span></label>
+                    <input
+                      id="phone"
+                      name="phone"
+                      type="tel"
+                      autocomplete="tel"
+                      class="block w-full rounded-xl border border-ink/20 bg-cream/60 px-4 py-3 text-ink transition focus:border-teal-700 focus:bg-white"
+                    />
+                  </div>
+                </div>
+                <div>
+                  <label for="message" class="mb-2 block font-semibold text-teal-900">Message <span aria-hidden="true" class="text-teal-700">*</span></label>
+                  <textarea
+                    id="message"
+                    name="message"
+                    rows="5"
+                    required
+                    aria-describedby="message-hint"
+                    class="block w-full resize-y rounded-xl border border-ink/20 bg-cream/60 px-4 py-3 text-ink transition focus:border-teal-700 focus:bg-white"
+                  ></textarea>
+                  <p id="message-hint" class="mt-2 text-sm text-ink-muted">
+                    Please don't include sensitive details. We can talk about those in person.
+                  </p>
+                </div>
+
+                <div id="form-error" role="alert" class="rounded-xl text-[0.95rem] text-ink"></div>
+
+                <button type="submit" class="btn-primary w-full !py-4 text-lg">
+                  <svg class="size-5" aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" ><path d="M14.536 21.686a.5.5 0 0 0 .937-.024l6.5-19a.496.496 0 0 0-.635-.635l-19 6.5a.5.5 0 0 0-.024.937l7.93 3.18a2 2 0 0 1 1.112 1.11z"/><path d="m21.854 2.147-10.94 10.939"/></svg>
+                  <span data-label>Send message</span>
+                </button>
+              </form>
+            </div>
+            <div id="form-success" role="status" aria-live="polite"></div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- Crisis band -->
+    <aside aria-labelledby="crisis-title" class="bg-peach-100">
+      <div class="mx-auto flex max-w-6xl flex-col gap-5 px-4 py-10 sm:flex-row sm:items-start sm:gap-6 sm:px-6">
+        <span class="grid size-12 shrink-0 place-items-center rounded-full bg-white text-teal-900 shadow-soft"><svg class="size-6" aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" ><circle cx="12" cy="12" r="10"/><path d="m4.93 4.93 4.24 4.24"/><path d="m14.83 9.17 4.24-4.24"/><path d="m14.83 14.83 4.24 4.24"/><path d="m9.17 14.83-4.24 4.24"/><circle cx="12" cy="12" r="4"/></svg></span>
+        <div>
+          <h2 id="crisis-title" class="text-2xl font-semibold">Need urgent help?</h2>
+          <p class="mt-2 max-w-3xl text-ink">
+            I'm not able to offer an emergency service. If you are in crisis, call Samaritans free on
+            <a href="tel:116123" class="font-semibold text-teal-900 underline underline-offset-4">116&nbsp;123</a> (24/7),
+            <a href="tel:111" class="font-semibold text-teal-900 underline underline-offset-4">NHS&nbsp;111</a> (select the mental health option),
+            or <a href="tel:999" class="font-semibold text-teal-900 underline underline-offset-4">999</a> in an emergency.
+          </p>
+        </div>
+      </div>
+    </aside>
+
+    <!-- Footer -->
+    <footer class="bg-teal-900 text-teal-50">
+      <div class="mx-auto grid max-w-6xl gap-10 px-4 py-14 sm:px-6 md:grid-cols-[1.4fr_1fr_1.2fr] lg:py-16">
+        <div>
+          <p class="font-display text-2xl font-semibold text-white">Lymm Counselling Ltd</p>
+          <p class="mt-3 max-w-xs text-white/80">
+            Person-centred counselling with Cherry Baguneid, in Lymm and online.
+          </p>
+          <p class="mt-5 inline-flex items-center gap-2 rounded-full bg-white/10 px-3.5 py-1.5 text-sm font-medium text-white">
+            <svg class="size-4" aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" ><path d="M3.85 8.62a4 4 0 0 1 4.78-4.77 4 4 0 0 1 6.74 0 4 4 0 0 1 4.78 4.78 4 4 0 0 1 0 6.74 4 4 0 0 1-4.77 4.78 4 4 0 0 1-6.75 0 4 4 0 0 1-4.78-4.77 4 4 0 0 1 0-6.76Z"/><path d="m16 9-5.5 5.5L8 12"/></svg> MBACP (Accred)
+          </p>
+        </div>
+        <nav aria-label="Footer">
+          <p class="text-sm font-semibold uppercase tracking-[0.14em] text-peach-300">Explore</p>
+          <ul class="mt-4 space-y-2 text-white/85">
+            <li><a class="hover:text-white hover:underline" href="#about">About</a></li>
+            <li><a class="hover:text-white hover:underline" href="#how-i-work">How I work</a></li>
+            <li><a class="hover:text-white hover:underline" href="#fees">Fees &amp; availability</a></li>
+            <li><a class="hover:text-white hover:underline" href="#faq">FAQ</a></li>
+            <li><a class="hover:text-white hover:underline" href="#documents">Documents</a></li>
+            <li><a class="hover:text-white hover:underline" href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+        <div>
+          <p class="text-sm font-semibold uppercase tracking-[0.14em] text-peach-300">Contact</p>
+          <ul class="mt-4 space-y-3 text-white/85">
+            <li>
+              <a class="inline-flex items-center gap-2.5 break-all hover:text-white hover:underline" href="mailto:admin@lymmcounselling.org.uk"><svg class="size-4 shrink-0" aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" ><path d="m22 7-8.991 5.727a2 2 0 0 1-2.009 0L2 7"/><rect x="2" y="4" width="20" height="16" rx="2"/></svg> admin@lymmcounselling.org.uk</a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
+            <li>
+              <a class="inline-flex items-center gap-2.5 hover:text-white hover:underline" href="tel:+447871925649"><svg class="size-4 shrink-0" aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" ><path d="M13.832 16.568a1 1 0 0 0 1.213-.303l.355-.465A2 2 0 0 1 17 15h3a2 2 0 0 1 2 2v3a2 2 0 0 1-2 2A18 18 0 0 1 2 4a2 2 0 0 1 2-2h3a2 2 0 0 1 2 2v3a2 2 0 0 1-.8 1.6l-.468.351a1 1 0 0 0-.292 1.233 14 14 0 0 0 6.392 6.384"/></svg> 07871&nbsp;925649</a>
             </li>
           </ul>
         </div>
       </div>
-    </nav>
-    <!-- Masthead-->
-    <header class="masthead">
-      <a
-        class="btn btn-primary js-scroll-trigger positionGetStarted logo"
-        href="#about"
-        >Get Started</a
-      >
-    </header>
-    <!-- About-->
-    <section class="page-section2" id="about">
-      <div class="container">
-        <div class="row2 justify-content-center2">
-          <div class="col-lg-8 text-center">
-            <div class="aboutHeader">
-              <h2 class="mt-0 AboutMe">About Me</h2>
-              <img
-                class="sizeSelfPortrait"
-                src="assets/img/self-portrait.png"
-                alt="Photo of Cherry Baguneid"
-              />
-            </div>
-
-            <hr class="divider light my-4" />
-            <p class=" mb-4">
-              I believe we can all find some experiences in life difficult and
-              that taking the first steps towards counselling or therapy can be
-              tough. I will help make the process less daunting and work through
-              any issues you may be experiencing. I see clients face to face in
-              private and confidential rooms, or provide walk and talk therapy,
-              telephone counselling and online counselling (via Zoom) sessions
-              are also available.
-            </p>
-            <br />
-            <p class="mb-4">
-              My name is Cherry Baguneid and I am a psychotherapist/counsellor
-              who work’s in a person-centred way, offering and holding a safe,
-              non-judgemental space for you to explore what is going on in your
-              world. I offer individual or group counselling and I can see
-              clients either weekly or fortnightly. The issues I can help you
-              with range from anxiety, depression, loss, relationship, family or
-              work issues, domestic violence/sexual abuse and general life
-              difficulties. I have specialised in dealing with clients who are
-              experiencing long term and/or life-limiting diseases, those caring
-              for their loved-one’s and also with clients who are struggling
-              with coming to terms with bereavement. I have facilitated
-              bereavement groups for several years.
-            </p>
-            <div>
-              <button type="button" class="collapsible">GDPR Form</button>
-              <div class="content">
-                <p class="contentText">
-                  The GDPR replaces the 1998 Data Protection Act to ensure your
-                  personal and sensitve, confidential data is kept private and
-                  held securely, being processed in the way that you have agreed
-                  to. It is there to protect your rights as a consumer of a
-                  service or product that might involve your identifable data.
-                  It also covers any session records, text messages or emails we
-                  exchange. For more information please click on the link below
-                  where you can access my privacy notice and full GDPR policy.
-                </p>
-                <a href="./documents/GDPR.pdf" download="GDPR">Download GDPR</a>
-              </div>
-              <button type="button" class="collapsible">
-                Counsellor Contract
-              </button>
-              <div class="content">
-                <p class="contentText">
-                  A counselling contract clearly sets out the boundaries and
-                  limitations of the counselling relationship. My own terms and
-                  conditions can be read in the contract below. It can be
-                  downloaded as a PDF document.
-                </p>
-                <a
-                  href="./documents/Counselling Contract.pdf"
-                  download="Counselling Contract"
-                  >Download Contract</a
-                >
-              </div>
-            </div>
-          </div>
+      <div class="border-t border-white/10">
+        <div class="mx-auto flex max-w-6xl flex-col gap-2 px-4 py-6 text-sm text-white/75 sm:flex-row sm:justify-between sm:px-6">
+          <p>Registered in England &amp; Wales · Company no. 12913378</p>
+          <p>&copy; <span id="year">2026</span> Lymm Counselling Ltd</p>
         </div>
       </div>
-    </section>
-    <!-- Qualifications-->
-    <section class="page-section2 bg-primary2" id="projects">
-      <div class="container">
-        <div class="row2 justify-content-center2">
-          <div class="col-lg-8 text-center">
-            <h2 class="text-white mt-0">Qualifications</h2>
-            <hr class="divider light my-4" />
-            <p class="text-white mb-4">
-              MBACP (Accred) (British Association for Counselling and
-              Psychotherapy)
-            </p>
-            <p class="text-white mb-4">
-              Master of Arts in Clinical Counselling (University of Chester)
-            </p>
-            <p class="text-white mb-4">
-              Dynamic Interpersonal Therapy Practitioner (DIT)
-            </p>
-            <p class="text-white mb-4">
-              Certificate in Counselling (Warrington)
-            </p>
-            <p class="text-white mb-4">
-              Diploma in Nursing Studies (University of Salford)
-            </p>
-            <p class="text-white mb-4">
-              Registered General Nurse (University of Manchester)
-            </p>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- Fees and Availability-->
-    <!--
-        <section class="projects-section bg-light" id="signup">
-            <div class="container">
-
-            </div>
-        </section>-->
-    <section class="page-section2" id="signup">
-      <div class="container">
-        <div class="row2 justify-content-center2">
-          <div class="col-lg-8 text-center">
-            <h2 class="mt-0">Fees and Availability</h2>
-            <hr class="divider light my-4" />
-            <p class=" mb-4">Thursday and Friday 9am – 5pm</p>
-            <br />
-            <p class="mb-4 text-black-50">
-              There is no charge for the initial session which lasts 20 minutes.
-              This gives us the opportunity to discuss what you feel you need
-              from your therapy and for us to see if we could work together. If
-              you decide you would like to work with me, I charge £60.00 for
-              each 50 minute session. A concessionary rate can be negotiated if
-              you are unwaged (students or unemployed).
-            </p>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- Contact -->
-    <section class="signup-section" id="contact">
-      <div class="container">
-        <div id="maxWidth" class="form-style-8">
-          <h2 id="transparentBackgroundColour">GET IN TOUCH</h2>
-          <form action="https://formspree.io/f/moqpbkwn" method="POST">
-            <input type="text" name="field1" placeholder="Full Name" />
-            <input type="email" name="field2" placeholder="Email" />
-            <textarea
-              name="message"
-              placeholder="Message"
-              onkeyup="adjust_textarea(this)"
-            ></textarea>
-            <button
-              class="btn centerbtn"
-              type="submit"
-              name="_next"
-              value="http://lymmcounselling.org.uk"
-            >
-              Send Message
-            </button>
-          </form>
-        </div>
-      </div>
-    </section>
-    <script>
-      var coll = document.getElementsByClassName("collapsible");
-      var i;
-
-      for (i = 0; i < coll.length; i++) {
-        coll[i].addEventListener("click", function() {
-          this.classList.toggle("active2");
-          var content = this.nextElementSibling;
-          if (content.style.maxHeight) {
-            content.style.maxHeight = null;
-          } else {
-            content.style.maxHeight = content.scrollHeight + "px";
-          }
-        });
-      }
-    </script>
-    <!-- Bootstrap core JS-->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"></script>
-    <!-- Third party plugin JS-->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
-    <!-- Core theme JS-->
-    <script src="js/scripts.js"></script>
+    </footer>
   </body>
 </html>
